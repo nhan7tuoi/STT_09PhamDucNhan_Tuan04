@@ -25,7 +25,7 @@ export default function App() {
   return (
     <NavigationContainer>
       <Tab.Navigator screenOptions={screenOptions}
-      initialRouteName='Page4'>
+      initialRouteName='Page1'>
         <Tab.Screen name="Page1" component={Page1} />
         <Tab.Screen name="Page2" component={Page2} />
         <Tab.Screen name="Page3" component={Page3} />
